@@ -80,6 +80,11 @@
 								"internalType": "uint256",
 								"name": "likes",
 								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
 							}
 						],
 						"internalType": "struct Twitter.Tweet[]",
@@ -121,6 +126,11 @@
 								"internalType": "uint256",
 								"name": "likes",
 								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
 							}
 						],
 						"internalType": "struct Twitter.Tweet",
@@ -129,6 +139,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "likeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -178,9 +206,32 @@
 						"internalType": "uint256",
 						"name": "likes",
 						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "unlikeTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -212,11 +263,11 @@
 	},
 	"sources": {
 		"contracts/Twitter.sol": {
-			"keccak256": "0x6698d46eddd1322a1c02703f8e82e3cbbc03ce88a0e6ce09b625de3cda95e7a0",
+			"keccak256": "0xa765b2a2ab5836ff1905cee01ac5bd488dfbf542e9ebf42b77b6d25f22432de0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://374e174eccb8376b0ba14baa65848576e70e56f6fdcbe892bdbd2f0907cb5406",
-				"dweb:/ipfs/Qmce8RCU9EnyU9a3xHpXzCPBnf1FKVGPyMju3p3HVgNvQT"
+				"bzz-raw://62220208db3dee3233d71bbc173dbff1d0b22e0677fff7ab93d598dcb8978c92",
+				"dweb:/ipfs/QmSJUy3qnEMNYLoP87JsUuZusPnaW7SkwaUUosxorZ3WtW"
 			]
 		}
 	},
