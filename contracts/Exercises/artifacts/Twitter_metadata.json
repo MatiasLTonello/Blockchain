@@ -7,11 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "MAX_TWEET_LENGTH",
 				"outputs": [
 					{
@@ -197,7 +192,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Twitter.sol": "Twitter"
+			"contracts/Exercises/17-Twitter-Modifier-Exercise.sol": "Twitter"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -211,12 +206,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Twitter.sol": {
-			"keccak256": "0x6698d46eddd1322a1c02703f8e82e3cbbc03ce88a0e6ce09b625de3cda95e7a0",
+		"contracts/Exercises/17-Twitter-Modifier-Exercise.sol": {
+			"keccak256": "0x01594e488d0bd05a985e2cc14a0d7da66997a459ed090d89d5d9c4f131735e99",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://374e174eccb8376b0ba14baa65848576e70e56f6fdcbe892bdbd2f0907cb5406",
-				"dweb:/ipfs/Qmce8RCU9EnyU9a3xHpXzCPBnf1FKVGPyMju3p3HVgNvQT"
+				"bzz-raw://5a15fe4054f136fa35bf9ce81227aff2d0f1e100d230fe957a26fa606835c8b8",
+				"dweb:/ipfs/QmQCfqzY9J2RzLRsMPbHh19z8P1gnG9FH14Wu6PCAPTmnK"
 			]
 		}
 	},
