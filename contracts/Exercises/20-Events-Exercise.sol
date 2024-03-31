@@ -14,6 +14,8 @@ contract EventExample {
     }
     
     mapping(address => User) public users;
+
+    event newUserRegistered(address indexed userAddress, string username);
     
     function registerUser(string memory _username, uint256 _age) public {
         User storage newUser = users[msg.sender];
@@ -22,6 +24,6 @@ contract EventExample {
         
         // 2️⃣ Emit the event with msg.sender and username as the inputs
         // CODE HERE 👇
-
+        emit newUserRegistered(msg.sender, _username);
     }
 }
